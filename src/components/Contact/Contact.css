@@ -1,0 +1,64 @@
+
+.contact {
+  padding: 100px 8%;
+  text-align: center;
+  scroll-margin-top: 75px;
+}
+
+.contact-eyebrow {
+  color: #39a8ff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.contact-title {
+  margin: 12px 0 20px;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.contact-title span {
+  color: #39a8ff;
+}
+
+.contact-description {
+  max-width: 650px;
+  margin: 0 auto 28px;
+  color: #a8b7ce;
+  line-height: 1.9;
+}
+
+.contact-email {
+  display: inline-block;
+  color: #68bdff;
+  font-size: clamp(1rem, 3vw, 1.3rem);
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.contact-email:hover {
+  color: #ffffff;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 28px;
+}
+
+.contact-links a {
+  color: #b4c4dc;
+  transition: color 0.2s;
+}
+
+.contact-links a:hover {
+  color: #39a8ff;
+}
+
+@media (max-width: 520px) {
+  .contact {
+    padding: 70px 6%;
+  }
+}
